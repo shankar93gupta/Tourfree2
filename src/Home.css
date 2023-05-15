@@ -1,0 +1,127 @@
+#introsection {
+    /* background: center/cover no-repeat url("../Images/bg.jpg"); */
+    bottom: 55px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    /* margin: 100px; */
+    /* text-shadow: 5px 5px black; */
+}
+
+.heading {
+    /* height: 300px;
+    bottom: 55px;
+    height: 300px; */
+    /* background-color: rgb(96, 92, 92); */
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 45px;
+}
+
+#footer {}
+
+.big {
+    font-size: 6rem;
+}
+
+.small {
+    font-size: 1.5rem;
+    animation: paragraph;
+    animation-duration: 3s;
+    background-color: black;
+    animation-iteration-count: infinite;
+}
+
+@keyframes paragraph {
+    0% {
+     opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+#sponsers {
+    margin-top: 40px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 30%; */
+}
+
+.boxes-items {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    border-radius: 15px;
+    margin: 28px 33px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.076);
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 150px;
+}
+
+
+
+.btn {
+    margin: 5px;
+}
+
+.anchor {
+    display: block;
+    /* border: 3px solid black; */
+    margin: 18px 33px;
+    padding: 10px 69px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.anchor:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    color: black;
+}
+
+.boxes-items p {
+    font-size: 1.5rem;
+}
+
+#introsection::before {
+ /* content: url("../Images/bg.jpg");
+ height:300 px;
+ width: 100%;
+ z-index: -1;
+ top: 100%;
+ left: 100%;
+
+       */
+}
+
+.img1{
+    /* background: url("../Images/bg.jpg */
+}

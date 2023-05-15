@@ -1,0 +1,42 @@
+#navbar {
+    background-color: #000000;
+    padding: 19px 5px;
+
+
+}
+nav{
+    /* position: sticky; */
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 4px 5px;
+    margin: 4px 25px;
+    color: white;
+    font-size: 1.5rem
+}
+
+#navbar li {
+    list-style: none;
+
+}
+
+#navbar li a:hover {
+    border-bottom: 2px solid white;
+    /* background-color: rgb(84, 73, 73);
+border-radius: 5px; */
+}
